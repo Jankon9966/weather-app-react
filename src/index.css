@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #a4d0ff, #83bbfb, #63a6f7, #4190f2, #127aeb);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

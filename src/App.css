@@ -1,0 +1,125 @@
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 35px;
+    background-color: rgba(0, 110, 255, 0.185);
+    box-shadow: 0 4px 7px rgba(000, 000, 000, 0.3);
+    border-radius: 6px;
+    min-width: 600px;
+}
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.container .header .search_form {
+    min-width: 450px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.container .header .search_form input {
+    width: 100%;
+    font-size: 14   px;
+    background-color: transparent;
+    border: none;
+    padding: 0 10px;
+}
+.container .header .search_form input:focus {
+    outline: none;
+}
+
+.container .header .search_form .search_btn {
+    border: 1px solid transparent;
+    outline: none;
+    background-color: rgb(56 139 245);
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container .weather_content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container .weather_content .weather_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 60px;
+}
+
+.container .weather_content .weather_top .left_side img {
+    width: 150px;
+    height: 150px;
+}
+
+.container .weather_content .weather_top .right_side {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .weather_content .weather_top .right_side .temperature {
+    font-size: 3.8rem;
+}
+
+.container .weather_content .weather_top .right_side .city_name {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.container .weather_content .weather_bottom .pre_forecast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px 40px 50px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container .weather_content .weather_bottom .pre_forecast img {
+    width: 30px;
+    height: 30px;
+}
+
+.container .weather_content .weather_bottom .pre_forecast p {
+    font-size: 1.4rem;
+}
+
+.container .weather_content .weather_bottom .pre_forecast h4 {
+    font-size: 15px;
+    letter-spacing: 2;
+}
+
+.humidity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.wind_speed {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
